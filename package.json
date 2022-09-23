@@ -1,0 +1,17 @@
+{
+  "name": "kriyators-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Kevin James Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
