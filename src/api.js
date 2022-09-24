@@ -20,5 +20,7 @@ app.use(express.json());
 
 app.use(`/.netlify/functions/api`, userRouter);
 
+mongoose.disconnect();
+
 module.exports = app;
 module.exports.handler = serverless(app);
